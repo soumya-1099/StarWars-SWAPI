@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.homepage-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  color: #FFE438;
+}
+
+.load-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFE438;
+}
+
+.main-search-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin:3rem;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 34px;
+  background: #ffffff;
+  border-radius: 4px;
+  padding-right: 8px;
+  margin-right: 16px;
+  border: none;
+}
+
+.search-input {
+  height: 32px;
+  background: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding-left: 8px;
+  margin-right: 16px;
+}
+.card-container {
+  margin: 1rem;
+  justify-content: space-around;
+  display: grid;
+  grid-column-gap: 15px;
+  grid-row-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-info-main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.info-box {
+  height: 32px;
+  align-items: center;
+  background: #ededed;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.info-header-text,
+.info-value-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media (min-width: 300px) and (max-width:600px){
+  .card-container {
+    margin: 1rem;
+    justify-content: space-around;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-info-header {
+    width: 326px;
+  }
+ 
+}

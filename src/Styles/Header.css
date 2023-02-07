@@ -1,0 +1,24 @@
+.header-box {
+  text-align: center;
+  color: white;
+  padding: 16px;
+  border-bottom: 2px solid #FFE438;
+}
+
+.header-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 28px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFE438;
+}
+@media (min-width: 300px) and (max-width:600px){
+.header-box{
+  padding: 1rem;
+}
+.header-text{
+  font-size: 20px;
+  line-height: 10px;
+}
+}

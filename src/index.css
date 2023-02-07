@@ -1,0 +1,15 @@
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto,
+    helvetica neue, Arial, noto sans, sans-serif, apple color emoji,
+    segoe ui emoji, segoe ui symbol, noto color emoji;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  background-image: url("https://lumiere-a.akamaihd.net/v1/images/background-stars-desktop_00cbf8a9.jpeg?region=0%2C0%2C2048%2C1600");
+  scroll-behavior: smooth;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
